@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 body {
   font-family: "Lato", sans-serif;
-  width: 1700px;
+  min-width: 1700px;
   margin: 0 auto;
 }
 
@@ -93,6 +93,8 @@ body {
 
 .container {
   padding: 0 265px;
+  max-width: 1700px;
+  margin: 0 auto;
 }
 
 /*----------------------HEADER----------------------*/
@@ -292,7 +294,7 @@ body {
 /*************************ABOUT US************************/
 .about {
   max-height: 623px;
-  width: 1700px;
+  min-width: 1700px;
   margin: 0 auto;
   background-color: #ffc155;
   margin-top: 155px;
@@ -300,6 +302,8 @@ body {
 }
 
 .about-row {
+  width: 1700px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
