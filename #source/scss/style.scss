@@ -13,7 +13,7 @@ body {
 	height: 100%;
 }
 .container {
-	padding: 0 265px;
+	padding: 0 15.5882%;
 	max-width: 1700px;
 	margin: 0 auto;
 }
@@ -21,17 +21,52 @@ body {
 @media (max-width: 1366px) {
 	
 	.container {
-		padding: 0 212px;
 		max-width: 1366px;
 	}
 }
-@media (max-width: 1024px) {
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		min-width: 992px;
+	}
+	.container {
+		max-width: 1199px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
 	body {
 		min-width: 768px;
 	}
 	.container {
-		padding: 0 159px;
-		max-width: 1366px;
+		max-width: 991px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	body {
+		min-width: 480px;
+	}
+	.container {
+		max-width: 767px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+	body {
+		min-width: 320px;
+	}
+	.container {
+		max-width: 479px;
+	}
+}
+
+@media (max-width: 320px) {
+	body {
+		min-width: none;
+	}
+	.container {
+		max-width: 320px;
 	}
 }
 /*----------------------HEADER----------------------*/
